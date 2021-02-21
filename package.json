@@ -17,7 +17,7 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "test": "jest",
-    "release": "yarn build && publish --access public"
+    "release": "yarn build && 'np --access public'"
   },
   "husky": {
     "hooks": {
