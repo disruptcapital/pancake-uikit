@@ -26,7 +26,7 @@ it("renders ConnectModal correctly", () => {
           </div>
           <button
             aria-label="Close the dialog"
-            class="sc-jSgupP SuYtt sc-gKsewC kpTpvg"
+            class="sc-jSgupP loFmOp sc-gKsewC kpTpvg"
             type="button"
           >
             <svg
@@ -46,7 +46,7 @@ it("renders ConnectModal correctly", () => {
           class="sc-eCssSg gIvwGY"
         >
           <button
-            class="sc-jSgupP jdAMRQ"
+            class="sc-jSgupP bnGKDc"
             id="wallet-connect-metamask"
             style="justify-content: space-between;"
             type="button"
@@ -189,7 +189,7 @@ it("renders ConnectModal correctly", () => {
             </svg>
           </button>
           <button
-            class="sc-jSgupP jdAMRQ"
+            class="sc-jSgupP bnGKDc"
             id="wallet-connect-trustwallet"
             style="justify-content: space-between;"
             type="button"
@@ -233,7 +233,7 @@ it("renders ConnectModal correctly", () => {
             </svg>
           </button>
           <button
-            class="sc-jSgupP jdAMRQ"
+            class="sc-jSgupP bnGKDc"
             id="wallet-connect-mathwallet"
             style="justify-content: space-between;"
             type="button"
@@ -266,7 +266,7 @@ it("renders ConnectModal correctly", () => {
             </svg>
           </button>
           <button
-            class="sc-jSgupP jdAMRQ"
+            class="sc-jSgupP bnGKDc"
             id="wallet-connect-tokenpocket"
             style="justify-content: space-between;"
             type="button"
@@ -301,7 +301,7 @@ it("renders ConnectModal correctly", () => {
             </svg>
           </button>
           <button
-            class="sc-jSgupP jdAMRQ"
+            class="sc-jSgupP bnGKDc"
             id="wallet-connect-walletconnect"
             style="justify-content: space-between;"
             type="button"
@@ -330,7 +330,7 @@ it("renders ConnectModal correctly", () => {
             </svg>
           </button>
           <button
-            class="sc-jSgupP fIDzco"
+            class="sc-jSgupP gaCCAE"
             id="wallet-connect-binance chain wallet"
             style="justify-content: space-between;"
             type="button"
@@ -444,7 +444,7 @@ it("renders AccountModal correctly", () => {
           </div>
           <button
             aria-label="Close the dialog"
-            class="sc-jSgupP SuYtt sc-gKsewC kpTpvg"
+            class="sc-jSgupP loFmOp sc-gKsewC kpTpvg"
             type="button"
           >
             <svg
@@ -522,7 +522,7 @@ it("renders AccountModal correctly", () => {
             class="sc-eCssSg iJOemu"
           >
             <button
-              class="sc-jSgupP eBuiZt"
+              class="sc-jSgupP dZqLEN"
               type="button"
             >
               Logout
