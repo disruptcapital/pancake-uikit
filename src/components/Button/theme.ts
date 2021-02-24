@@ -10,8 +10,8 @@ export const light: ButtonTheme = {
     backgroundHover: lightColors.primaryBright,
     border: 0,
     borderColorHover: "currentColor",
-    boxShadow: "inset 0px -1px 0px rgba(14, 14, 44, 0.4)",
-    boxShadowActive: "inset 0px -1px 0px rgba(14, 14, 44, 0.4)",
+    boxShadow: "rgb(38, 57, 77) 0px 20px 30px -10px",
+    boxShadowActive: "rgb(38, 57, 77) 0px 20px 30px -10px",
     color: "#FFFFFF",
   },
   [SECONDARY]: {
@@ -46,8 +46,8 @@ export const light: ButtonTheme = {
   },
   [DANGER]: {
     background: lightColors.failure,
-    backgroundActive: "#D43285", // darkten 10%
-    backgroundHover: "#FF65B8", // lighten 10%
+    backgroundActive: "#a11f5c", // darken 10%
+    backgroundHover: "#dc4a8e", // lighten 10%
     border: 0,
     borderColorHover: "currentColor",
     boxShadow: "none",
