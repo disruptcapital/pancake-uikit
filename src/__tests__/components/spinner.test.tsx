@@ -22,7 +22,7 @@ it("renders correctly", () => {
             fill-opacity=".5"
           >
             <animate
-              attributeName="fillOpacity"
+              attributeName="fill-opacity"
               begin="0s"
               calcMode="linear"
               dur="1.4s"
@@ -36,7 +36,7 @@ it("renders correctly", () => {
             fill-opacity=".5"
           >
             <animate
-              attributeName="fillOpacity"
+              attributeName="fill-opacity"
               begin="0.7s"
               calcMode="linear"
               dur="1.4s"

@@ -11,7 +11,7 @@ const Icon: React.FC<SvgProps> = (props) => {
         fillOpacity=".5"
       >
         <animate
-          attributeName="fillOpacity"
+          attributeName="fill-opacity"
           begin="0s"
           dur="1.4s"
           values="0.5;1;0.5"
@@ -25,7 +25,7 @@ const Icon: React.FC<SvgProps> = (props) => {
         fillOpacity=".5"
       >
         <animate
-          attributeName="fillOpacity"
+          attributeName="fill-opacity"
           begin="0.7s"
           dur="1.4s"
           values="0.5;1;0.5"
