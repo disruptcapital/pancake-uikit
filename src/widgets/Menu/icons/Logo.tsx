@@ -8,7 +8,7 @@ interface LogoProps extends SvgProps {
 }
 
 const Logo: React.FC<LogoProps> = ({ isDark, ...props }) => {
-  const textColor = isDark ? "#FFFFFF" : "#000000";
+  const textColor = isDark ? "#FFFFFF" : lightColors.midnight;
   return (
     <Svg viewBox="0 0 148.92 32" {...props}>
       <defs>
@@ -65,7 +65,7 @@ const Logo: React.FC<LogoProps> = ({ isDark, ...props }) => {
       <text
         transform="translate(35.34 22.95) scale(1.11 1)"
         fontSize="24"
-        fill={lightColors.midnight}
+        fill={textColor}
         fontFamily="ElenaBasic-Regular, Elena Basic"
       >
         <tspan>WifeSwap</tspan>
