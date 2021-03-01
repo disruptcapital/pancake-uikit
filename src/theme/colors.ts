@@ -8,6 +8,14 @@ export const baseColors = {
   secondary: "#403F3F",
   success: "#45D46B",
   warning: "#FEB042",
+  white: "#FFFFFF",
+  lollipop: "#CC2774",
+  seafoam: "#27CC7f",
+  seafoamLight30: "#9FEDC9",
+  darkGrey: "#403F3F",
+  midnight: "#231F20",
+  textDisabledDark30: "#6E777A",
+  disabledBlueGrey: "#3E6F7C",
 };
 
 export const brandColors = {

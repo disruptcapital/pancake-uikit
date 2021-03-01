@@ -56,6 +56,15 @@ export type Colors = {
 
   // Brand colors
   binance: string;
+
+  white: string;
+  lollipop: string;
+  seafoam: string;
+  seafoamLight30: string;
+  darkGrey: string;
+  midnight: string;
+  textDisabledDark30: string;
+  disabledBlueGrey: string;
 };
 
 export type ZIndices = {
