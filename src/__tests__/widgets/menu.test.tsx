@@ -417,7 +417,7 @@ it("renders correctly", () => {
     		c0,0.2,0,0.5,0,0.8c0,3.5-2.8,6.3-6.3,6.3H8.5z"
                       />
                     </g>
-                           
+                     
                   </svg>
                   <div
                     class="sc-gKsewC krVPty"
