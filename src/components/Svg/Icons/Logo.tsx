@@ -4,20 +4,13 @@ import { SvgProps } from "../types";
 import { lightColors } from "../../../theme/colors";
 
 const Icon: React.FC<SvgProps> = (props) => {
-  const { id = "" } = props
-  const gradientId = `lollipop-gradient-mobile-${id}`
-  const gradientFillUrl = `url(#lollipop-gradient-mobile-${id})`
+  const { id = "" } = props;
+  const gradientId = `lollipop-gradient-mobile-${id}`;
+  const gradientFillUrl = `url(#lollipop-gradient-mobile-${id})`;
   return (
     <Svg viewBox="0 0 32 32" {...props}>
       <defs>
-        <linearGradient
-          id={gradientId}
-          x1="14.74"
-          y1="12.65"
-          x2="27.47"
-          y2="12.65"
-          gradientUnits="userSpaceOnUse"
-        >
+        <linearGradient id={gradientId} x1="14.74" y1="12.65" x2="27.47" y2="12.65" gradientUnits="userSpaceOnUse">
           <stop offset="0" stopColor={lightColors.lollipop} />
           <stop offset="0.11" stopColor="#cd2d78" />
           <stop offset="0.25" stopColor="#d13d82" />

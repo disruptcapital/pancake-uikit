@@ -1,52 +1,52 @@
 export const links = [
   {
-    label: 'Home',
-    icon: 'HomeIcon',
-    href: '/',
+    label: "Home",
+    icon: "HomeIcon",
+    href: "/",
   },
   {
-    label: 'Trade',
-    icon: 'TradeIcon',
+    label: "Trade",
+    icon: "TradeIcon",
     items: [
       {
-        label: 'Exchange',
-        href: 'http://exchangelab.wifeswap.finance',
+        label: "Exchange",
+        href: "http://exchangelab.wifeswap.finance",
       },
       {
-        label: 'Liquidity',
-        href: 'http://exchangelab.wifeswap.finance/#/pool',
+        label: "Liquidity",
+        href: "http://exchangelab.wifeswap.finance/#/pool",
       },
     ],
   },
   {
-    label: 'Farms',
-    icon: 'FarmIcon',
-    href: '/farms',
+    label: "Farms",
+    icon: "FarmIcon",
+    href: "/farms",
   },
   {
-    label: 'Pools',
-    icon: 'PoolIcon',
-    href: '/pools',
+    label: "Pools",
+    icon: "PoolIcon",
+    href: "/pools",
   },
   {
-    label: 'Info',
-    icon: 'InfoIcon',
+    label: "Info",
+    icon: "InfoIcon",
     items: [
       {
-        label: 'Overview',
-        href: 'https://wifeswap.info',
+        label: "Overview",
+        href: "https://wifeswap.info",
       },
       {
-        label: 'Tokens',
-        href: 'https://wifeswap.info/tokens',
+        label: "Tokens",
+        href: "https://wifeswap.info/tokens",
       },
       {
-        label: 'Pairs',
-        href: 'https://wifeswap.info/pairs',
+        label: "Pairs",
+        href: "https://wifeswap.info/pairs",
       },
       {
-        label: 'Accounts',
-        href: 'https://wifeswap.info/accounts',
+        label: "Accounts",
+        href: "https://wifeswap.info/accounts",
       },
     ],
   },
