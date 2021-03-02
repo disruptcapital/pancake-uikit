@@ -1,113 +1,52 @@
 export const links = [
   {
-    label: "Home",
-    icon: "HomeIcon",
-    href: "/",
+    label: 'Home',
+    icon: 'HomeIcon',
+    href: '/',
   },
   {
-    label: "Trade",
-    icon: "TradeIcon",
+    label: 'Trade',
+    icon: 'TradeIcon',
     items: [
       {
-        label: "Exchange",
-        href: "http://lab.wifeswap.finance",
+        label: 'Exchange',
+        href: 'http://exchangelab.wifeswap.finance',
       },
       {
-        label: "Liquidity",
-        href: "http://lab.wifeswap.finance/#/pool",
+        label: 'Liquidity',
+        href: 'http://exchangelab.wifeswap.finance/#/pool',
       },
     ],
   },
   {
-    label: "Farms",
-    icon: "FarmIcon",
-    href: "/farms",
+    label: 'Farms',
+    icon: 'FarmIcon',
+    href: '/farms',
   },
   {
-    label: "Pools",
-    icon: "PoolIcon",
-    href: "/syrup",
+    label: 'Pools',
+    icon: 'PoolIcon',
+    href: '/pools',
   },
   {
-    label: "Lottery",
-    icon: "TicketIcon",
-    href: "/lottery",
-  },
-  {
-    label: "NFT",
-    icon: "NftIcon",
-    href: "/nft",
-  },
-  {
-    label: "Profile & Teams",
-    icon: "GroupsIcon",
+    label: 'Info',
+    icon: 'InfoIcon',
     items: [
       {
-        label: "Leaderboard",
-        href: "/",
+        label: 'Overview',
+        href: 'https://wifeswap.info',
       },
       {
-        label: "YourProfile",
-        href: "/",
-      },
-    ],
-    calloutClass: "rainbow",
-  },
-  {
-    label: "Info",
-    icon: "InfoIcon",
-    items: [
-      {
-        label: "Overview",
-        href: "https://pancakeswap.info",
+        label: 'Tokens',
+        href: 'https://wifeswap.info/tokens',
       },
       {
-        label: "Tokens",
-        href: "https://pancakeswap.info/tokens",
+        label: 'Pairs',
+        href: 'https://wifeswap.info/pairs',
       },
       {
-        label: "Pairs",
-        href: "https://pancakeswap.info/pairs",
-      },
-      {
-        label: "Accounts",
-        href: "https://pancakeswap.info/accounts",
-      },
-    ],
-  },
-  {
-    label: "IFO",
-    icon: "IfoIcon",
-    items: [
-      {
-        label: "Next",
-        href: "/ifo",
-      },
-      {
-        label: "History",
-        href: "/ifo/history",
-      },
-    ],
-  },
-  {
-    label: "More",
-    icon: "MoreIcon",
-    items: [
-      {
-        label: "Voting",
-        href: "https://voting.pancakeswap.finance",
-      },
-      {
-        label: "Github",
-        href: "https://github.com/pancakeswap",
-      },
-      {
-        label: "Docs",
-        href: "https://docs.pancakeswap.finance",
-      },
-      {
-        label: "Blog",
-        href: "https://pancakeswap.medium.com",
+        label: 'Accounts',
+        href: 'https://wifeswap.info/accounts',
       },
     ],
   },
